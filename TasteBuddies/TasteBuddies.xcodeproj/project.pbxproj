@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		14F276AD2CD466DC0080261D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F2768F2CD466D20080261D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F276962CD466D20080261D;
+			remoteInfo = TasteBuddies;
+		};
+		14F276B72CD466DC0080261D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F2768F2CD466D20080261D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F276962CD466D20080261D;
+			remoteInfo = TasteBuddies;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F276972CD466D20080261D /* TasteBuddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteBuddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F276AC2CD466DC0080261D /* TasteBuddiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteBuddiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F276B62CD466DC0080261D /* TasteBuddiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteBuddiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		14F276992CD466D20080261D /* TasteBuddies */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TasteBuddies;
+			sourceTree = "<group>";
+		};
+		14F276AF2CD466DC0080261D /* TasteBuddiesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TasteBuddiesTests;
+			sourceTree = "<group>";
+		};
+		14F276B92CD466DC0080261D /* TasteBuddiesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TasteBuddiesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F276942CD466D20080261D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F276A92CD466DC0080261D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F276B32CD466DC0080261D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F2768E2CD466D20080261D = {
+			isa = PBXGroup;
+			children = (
+				14F276992CD466D20080261D /* TasteBuddies */,
+				14F276AF2CD466DC0080261D /* TasteBuddiesTests */,
+				14F276B92CD466DC0080261D /* TasteBuddiesUITests */,
+				14F276982CD466D20080261D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F276982CD466D20080261D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F276972CD466D20080261D /* TasteBuddies.app */,
+				14F276AC2CD466DC0080261D /* TasteBuddiesTests.xctest */,
+				14F276B62CD466DC0080261D /* TasteBuddiesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F276962CD466D20080261D /* TasteBuddies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F276C02CD466DC0080261D /* Build configuration list for PBXNativeTarget "TasteBuddies" */;
+			buildPhases = (
+				14F276932CD466D20080261D /* Sources */,
+				14F276942CD466D20080261D /* Frameworks */,
+				14F276952CD466D20080261D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				14F276992CD466D20080261D /* TasteBuddies */,
+			);
+			name = TasteBuddies;
+			packageProductDependencies = (
+			);
+			productName = TasteBuddies;
+			productReference = 14F276972CD466D20080261D /* TasteBuddies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F276AB2CD466DC0080261D /* TasteBuddiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F276C32CD466DC0080261D /* Build configuration list for PBXNativeTarget "TasteBuddiesTests" */;
+			buildPhases = (
+				14F276A82CD466DC0080261D /* Sources */,
+				14F276A92CD466DC0080261D /* Frameworks */,
+				14F276AA2CD466DC0080261D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F276AE2CD466DC0080261D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				14F276AF2CD466DC0080261D /* TasteBuddiesTests */,
+			);
+			name = TasteBuddiesTests;
+			packageProductDependencies = (
+			);
+			productName = TasteBuddiesTests;
+			productReference = 14F276AC2CD466DC0080261D /* TasteBuddiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14F276B52CD466DC0080261D /* TasteBuddiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F276C62CD466DC0080261D /* Build configuration list for PBXNativeTarget "TasteBuddiesUITests" */;
+			buildPhases = (
+				14F276B22CD466DC0080261D /* Sources */,
+				14F276B32CD466DC0080261D /* Frameworks */,
+				14F276B42CD466DC0080261D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F276B82CD466DC0080261D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				14F276B92CD466DC0080261D /* TasteBuddiesUITests */,
+			);
+			name = TasteBuddiesUITests;
+			packageProductDependencies = (
+			);
+			productName = TasteBuddiesUITests;
+			productReference = 14F276B62CD466DC0080261D /* TasteBuddiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F2768F2CD466D20080261D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					14F276962CD466D20080261D = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					14F276AB2CD466DC0080261D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 14F276962CD466D20080261D;
+					};
+					14F276B52CD466DC0080261D = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 14F276962CD466D20080261D;
+					};
+				};
+			};
+			buildConfigurationList = 14F276922CD466D20080261D /* Build configuration list for PBXProject "TasteBuddies" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14F2768E2CD466D20080261D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 14F276982CD466D20080261D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F276962CD466D20080261D /* TasteBuddies */,
+				14F276AB2CD466DC0080261D /* TasteBuddiesTests */,
+				14F276B52CD466DC0080261D /* TasteBuddiesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F276952CD466D20080261D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F276AA2CD466DC0080261D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F276B42CD466DC0080261D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F276932CD466D20080261D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F276A82CD466DC0080261D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F276B22CD466DC0080261D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F276AE2CD466DC0080261D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F276962CD466D20080261D /* TasteBuddies */;
+			targetProxy = 14F276AD2CD466DC0080261D /* PBXContainerItemProxy */;
+		};
+		14F276B82CD466DC0080261D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F276962CD466D20080261D /* TasteBuddies */;
+			targetProxy = 14F276B72CD466DC0080261D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14F276BE2CD466DC0080261D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14F276BF2CD466DC0080261D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F276C12CD466DC0080261D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TasteBuddies/Preview Content\"";
+				DEVELOPMENT_TEAM = JK6L9U5RHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SeanRZhang.TasteBuddies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14F276C22CD466DC0080261D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TasteBuddies/Preview Content\"";
+				DEVELOPMENT_TEAM = JK6L9U5RHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SeanRZhang.TasteBuddies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14F276C42CD466DC0080261D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JK6L9U5RHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SeanRZhang.TasteBuddiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteBuddies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasteBuddies";
+			};
+			name = Debug;
+		};
+		14F276C52CD466DC0080261D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JK6L9U5RHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SeanRZhang.TasteBuddiesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteBuddies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasteBuddies";
+			};
+			name = Release;
+		};
+		14F276C72CD466DC0080261D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JK6L9U5RHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SeanRZhang.TasteBuddiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasteBuddies;
+			};
+			name = Debug;
+		};
+		14F276C82CD466DC0080261D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JK6L9U5RHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SeanRZhang.TasteBuddiesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasteBuddies;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F276922CD466D20080261D /* Build configuration list for PBXProject "TasteBuddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F276BE2CD466DC0080261D /* Debug */,
+				14F276BF2CD466DC0080261D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F276C02CD466DC0080261D /* Build configuration list for PBXNativeTarget "TasteBuddies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F276C12CD466DC0080261D /* Debug */,
+				14F276C22CD466DC0080261D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F276C32CD466DC0080261D /* Build configuration list for PBXNativeTarget "TasteBuddiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F276C42CD466DC0080261D /* Debug */,
+				14F276C52CD466DC0080261D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F276C62CD466DC0080261D /* Build configuration list for PBXNativeTarget "TasteBuddiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F276C72CD466DC0080261D /* Debug */,
+				14F276C82CD466DC0080261D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F2768F2CD466D20080261D /* Project object */;
+}
